@@ -1579,7 +1579,24 @@
                 android:textSize="13dp"
                 android:textStyle="normal|bold" />
 
-
+            <TextView
+                android:id="@+id/github"
+                android:layout_width="193dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/delete1"
+                android:background="#ffffff"
+                android:maxHeight="60dp"
+                android:minHeight="60dp"
+                android:minWidth="180dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="10dp"
+                android:paddingTop="20dp"
+                android:text="Open Source Project"
+                android:textColor="#000000"
+                android:textSize="13dp"
+                android:textStyle="normal|bold" />
             <TextView
                 android:id="@+id/aboutus1"
                 android:layout_width="193dp"

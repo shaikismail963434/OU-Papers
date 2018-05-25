@@ -45,7 +45,7 @@ public class HighActivity extends Activity
 {
     private RelativeLayout r;
     private LinearLayout layout,papersmenu;
-    private TextView paperstrans,shiftpapers,redownload1,nothing1,nothing,viewpackage,trans22,
+    private TextView github,paperstrans,shiftpapers,redownload1,nothing1,nothing,viewpackage,trans22,
             redownload,pack,delete,about,share,menubar,show,syallbm,paperm,top1,top2,top3,trans,
             transpa3,trans2, deleteNoti,deletGothca,shareNoti,shareGotcha,shareCancel,rateNoti,rateGotcha,
             rateCancel, top4,top5,top6,top7,top8,top9,top10,top11,top12,top13,top14,top15,top16,top17,top18,
@@ -145,6 +145,7 @@ public class HighActivity extends Activity
                 nineteen = (Button)findViewById(R.id.button18);
                 twenty =  (Button)findViewById(R.id.button19);
                 pack = (TextView)findViewById(R.id.pack1);
+                github=(TextView)findViewById(R.id.github);
                 about =(TextView)findViewById(R.id.aboutus1);
                 trans = (TextView) findViewById(R.id.transpa);
                 menu = (ImageView) findViewById(R.id.menu1);
@@ -1883,6 +1884,18 @@ public class HighActivity extends Activity
                         overridePendingTransition(R.anim.rightin, R.anim.leftout);
                     }
                 });
+               github.setOnClickListener(new View.OnClickListener()
+              {
+            @Override
+            public void onClick(View v)
+            {
+                active=false;
+                getSharedPreferences("ACTIVE2",MODE_PRIVATE).edit().putBoolean("ACTIVE2",false).commit();
+                getSharedPreferences("SCROLL1", MODE_PRIVATE).edit().putInt("SCROLL1", scroll.getScrollY()).commit();
+                github.setBackgroundResource(R.drawable.clickedmenu);
+                startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/shaikismail963434/OU-Papers")));
+                }
+                  });
                 about.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view)
