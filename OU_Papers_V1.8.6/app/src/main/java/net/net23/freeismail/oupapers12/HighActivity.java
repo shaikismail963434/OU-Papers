@@ -1890,9 +1890,30 @@ public class HighActivity extends Activity
             public void onClick(View v)
             {
                 active=false;
+                github.setBackgroundResource(R.drawable.clickedmenu);
+                github.setClickable(false);
+                han.postDelayed(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        github.setBackgroundColor(Color.WHITE);
+                        github.setClickable(true);
+                    }
+                }, 190);
+                active = false;
+                layout.startAnimation(backanim);
+                han.postDelayed(new Runnable()
+                {
+                    @Override
+                    public void run()
+                    {
+                        layout.setVisibility(View.GONE);
+                        trans.setVisibility(View.GONE);
+                    }
+                }, 190);
                 getSharedPreferences("ACTIVE2",MODE_PRIVATE).edit().putBoolean("ACTIVE2",false).commit();
                 getSharedPreferences("SCROLL1", MODE_PRIVATE).edit().putInt("SCROLL1", scroll.getScrollY()).commit();
-                github.setBackgroundResource(R.drawable.clickedmenu);
                 startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse("https://github.com/shaikismail963434/OU-Papers")));
                 }
                   });
