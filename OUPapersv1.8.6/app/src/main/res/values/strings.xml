@@ -1,0 +1,13 @@
+<resources>
+    <string name="title_activity_packages">Packages</string>
+    <string name="title_activity_pack">pack</string>
+    <string name="title_activity_first">first</string>
+    <string name="blod">OU Papers</string>
+    <string name="title_activity_firstland">firstland</string>
+    <string name="title_activity_papers">papers</string>
+    <string name="need">OU Papers</string>
+    <string name="title_activity_dummy_">Dummy_Activity</string>
+    <string name="title_activity_main_second">MainSecond</string>
+    <string name="title_activity_news">news</string>
+    <string name="title_activity_high">HighActivity</string>
+</resources>

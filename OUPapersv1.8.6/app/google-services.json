@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "1087745932466",
+    "firebase_url": "https://oupapers12.firebaseio.com",
+    "project_id": "oupapers12",
+    "storage_bucket": "oupapers12.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087745932466:android:c77675f95d75fedb",
+        "android_client_info": {
+          "package_name": "net.net23.freeismail.oupapers12"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087745932466-qv81o54cu6e262o2qb9m9244sgo5udaf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.net23.freeismail.oupapers12",
+            "certificate_hash": "49e38caa22852a9d508cff1af4f5bc77be558688"
+          }
+        },
+        {
+          "client_id": "1087745932466-h495h41vq0bpbj0mhj28fskvsmu7nlsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.net23.freeismail.oupapers12",
+            "certificate_hash": "5bb694a6badaa33caee20a64b064a0a17279c048"
+          }
+        },
+        {
+          "client_id": "1087745932466-lu3jcqj4s3r8vlr714k0he1ssanvbn2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt7Oss8tJr0xZpzsityIpGPdTW7YvmKrk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087745932466-lu3jcqj4s3r8vlr714k0he1ssanvbn2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

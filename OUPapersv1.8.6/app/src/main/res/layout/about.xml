@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context="net.net23.freeismail.oupapers12.about">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView11"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="10dp"
+        android:text="Designed and Developed by"
+        android:textColor="#000000"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Shaik Ismail"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/more"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_below="@id/textView11"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background"
+        android:elevation="5dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:maxHeight="55dp"
+        android:minHeight="55dp"
+        android:minWidth="110dp"
+        android:text="More apps"
+        android:textColor="#000000"
+        android:textSize="13dp" />
+
+</RelativeLayout>

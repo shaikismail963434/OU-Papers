@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_game"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcf8f8"
+    tools:context="net.net23.freeismail.oupapers12.game">
+<TextView
+    android:textColor="#000000"
+    android:text="Joy"
+    android:layout_marginTop="6dp"
+    android:textSize="20dp"
+    android:textStyle="bold|italic"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:id="@+id/textView2" />
+<TextView
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:text="A"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/a" />
+
+<TextView
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:text="B"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/b"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="35dp"
+    android:layout_marginTop="73dp" />
+
+<TextView
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:text="C"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/c"
+    android:layout_alignBaseline="@+id/b"
+    android:layout_alignBottom="@+id/b"
+    android:layout_toRightOf="@+id/a"
+    android:layout_marginLeft="14dp" />
+
+<TextView
+    android:text="D"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/d"
+    android:layout_below="@+id/a"
+    android:layout_alignLeft="@+id/b"
+    android:layout_marginTop="47dp" />
+
+<TextView
+    android:text="F"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/f"
+    android:layout_below="@+id/b"
+    android:layout_alignLeft="@+id/b"
+    android:layout_marginTop="43dp" />
+
+<TextView
+    android:text="E"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/e"
+    android:layout_marginTop="31dp"
+    android:layout_below="@+id/j"
+    android:layout_alignParentRight="true"
+    android:layout_marginRight="20dp" />
+
+<TextView
+    android:text="J"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/j"
+    android:layout_marginTop="34dp"
+    android:layout_below="@+id/g"
+    android:layout_alignRight="@+id/e"
+    android:layout_marginRight="12dp" />
+
+<TextView
+    android:text="G"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/g"
+    android:layout_marginBottom="18dp"
+    android:layout_alignBottom="@+id/f"
+    android:layout_alignLeft="@+id/j" />
+
+<TextView
+    android:text="I"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/i"
+    android:layout_marginRight="16dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@+id/d"
+    android:layout_marginBottom="13dp" />
+
+<TextView
+    android:text="H"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/h"
+    android:layout_alignBaseline="@+id/i"
+    android:layout_alignBottom="@+id/i"
+    android:layout_alignLeft="@+id/a" />
+
+<TextView
+    android:text="K"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/k"
+    android:layout_alignBaseline="@+id/d"
+    android:layout_alignBottom="@+id/d"
+    android:layout_alignLeft="@+id/h" />
+
+<TextView
+    android:text="L"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/l"
+    android:layout_alignTop="@+id/b"
+    android:layout_toRightOf="@+id/b"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="39dp" />
+
+<TextView
+    android:text="M"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="#000000"
+    android:layout_width="80dp"
+    android:background="@drawable/rounded"
+    android:layout_height="80dp"
+    android:gravity="center"
+    android:minHeight="80dp"
+    android:minWidth="80dp"
+    android:id="@+id/m"
+    android:layout_below="@+id/f"
+    android:layout_alignLeft="@+id/f" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:elevation="10dp">
+
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#00000000"
+            android:text="A"
+            android:textColor="#4000ff"
+            android:textSize="40dp" />
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="20dp"
+    android:visibility="gone"
+    android:id="@+id/relative"
+    android:background="#50000000">
+
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:background="@drawable/roundedplay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="16dp"
+            android:text="Levels"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:text="Play"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/five"
+            android:layout_marginBottom="19dp" />
+
+        <TextView
+            android:text="1"
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:background="@drawable/roundednot"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/one"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/two" />
+
+        <TextView
+            android:text="3"
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:gravity="center"
+            android:background="@drawable/roundednot"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/three"
+            android:layout_alignBaseline="@+id/two"
+            android:layout_alignBottom="@+id/two"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="2"
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:background="@drawable/roundednot"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/two"
+            android:layout_alignBaseline="@+id/one"
+            android:layout_alignBottom="@+id/one"
+            android:layout_toLeftOf="@+id/three" />
+
+        <TextView
+            android:text="4"
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:background="@drawable/roundednot"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/four"
+            android:layout_alignBaseline="@+id/three"
+            android:layout_alignBottom="@+id/three"
+            android:layout_toRightOf="@+id/three" />
+
+        <TextView
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:background="@drawable/roundednot"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/five"
+            android:layout_alignBaseline="@+id/four"
+            android:layout_alignBottom="@+id/four"
+            android:layout_toRightOf="@+id/four" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="20dp"
+    android:visibility="gone"
+    android:id="@+id/relative1"
+    android:background="#50000000">
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="160dp"
+        android:background="@drawable/roundedplay"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:textSize="16dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:gravity="center"
+            android:id="@+id/thanks"
+            android:text="This is Thanks giving gift dedicated to all my supporters, Have fun!!"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:textSize="15dp"
+            android:minHeight="35dp"
+            android:minWidth="35dp"
+            android:gravity="center"
+            android:id="@+id/firstplay"
+            android:text="Play"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="13dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+
+
+<TextView
+    android:elevation="10dp"
+    android:visibility="gone"
+    android:text="Form the given word by popping the bubbles"
+    android:textColor="#000000"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:background="#b1fff8"
+    android:gravity="center_vertical"
+    android:paddingLeft="20dp"
+    android:id="@+id/intsMoti"
+    android:layout_above="@+id/intrGotcha"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+
+<TextView
+    android:elevation="10dp"
+    android:visibility="gone"
+    android:text="Got it "
+    android:textColor="#036954"
+    android:layout_width="120dp"
+    android:layout_height="40dp"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:id="@+id/intrGotcha"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginLeft="20dp"
+    android:layout_marginStart="20dp" />
+
+</RelativeLayout>
+

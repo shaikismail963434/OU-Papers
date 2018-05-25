@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="net.net23.freeismail.oupapers12.first"
+    android:background="#80faf6f6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get started"
+        android:minHeight="55dp"
+        android:id="@+id/started"
+        android:elevation="3dp"
+        android:textSize="15dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="@drawable/background"
+        android:textColor="#000000"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to"
+        android:paddingTop="10dp"
+
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:textStyle="normal|bold"
+        android:id="@+id/textView3"
+        android:textSize="22dp"
+        android:layout_marginTop="26dp"
+        android:textColor="#fb056f"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:minHeight="70dp"
+        android:minWidth="70dp"
+        android:maxHeight="70dp"
+        android:maxWidth="70dp"
+        android:foregroundGravity="center_horizontal|center_vertical"
+        android:background="@drawable/logo"
+        android:elevation="4dp"
+        android:id="@+id/imageView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:text="OU Papers &amp; Syllabus"
+        android:elevation="10dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        android:id="@+id/textView2"
+        android:textSize="22dp"
+        android:textColor="#fb056f"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

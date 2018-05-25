@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.net23.freeismail.oupapers12">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/need"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".pack"
+            android:label="@string/title_activity_pack"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".first"
+            android:label="@string/title_activity_first"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".about"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".papers"
+            android:label="@string/title_activity_papers"
+            android:theme="@style/AppTheme" />
+
+        <service
+            android:name=".service"
+            android:stopWithTask="true" />
+        <service
+            android:name=".percser"
+            android:process=":ServiceProcess" />
+
+        <activity
+            android:name=".see"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".HighActivity"
+            android:label="@string/title_activity_high"
+            android:theme="@style/AppTheme" />
+    </application>
+
+</manifest>
