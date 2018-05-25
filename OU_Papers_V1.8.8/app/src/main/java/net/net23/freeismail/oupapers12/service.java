@@ -549,10 +549,7 @@ public class service extends Service
                     }
                     if((int) ((total * 100) / lenghtOfFile)==100)
                     {
-                        File ff=new File(Environment.getExternalStorageDirectory().toString()+"/OU Papers");
-                        if(!ff.exists())
-                            ff.mkdir();
-                      unzip(new File(data1+file+".zip"),new File(Environment.getExternalStorageDirectory().toString()+"/OU Papers"));
+                      unzip(new File(data1+file+".zip"),new File("/data/data/net.net23.freeismail.oupapers12"));
                         File delete=new File(data1+file+".zip");
                         delete.delete();
                         getSharedPreferences("PERC", MODE_PRIVATE).edit().putString("PERC", ""+100).commit();

@@ -54,6 +54,7 @@ public class pack extends Activity
         setContentView(R.layout.activity_pack);
         getSharedPreferences("ACTIVE1",MODE_PRIVATE).edit().putBoolean("ACTIVE1",false).commit();
         getSharedPreferences("PAP",MODE_PRIVATE).edit().putBoolean("PAP",false).commit();
+        getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","").commit();
 
 
         anim = AnimationUtils.loadAnimation(this, R.anim.flow);

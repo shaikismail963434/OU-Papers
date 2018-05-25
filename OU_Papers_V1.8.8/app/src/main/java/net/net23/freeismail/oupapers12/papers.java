@@ -60,6 +60,7 @@ public class papers extends ActionBarActivity
             this.runOnUiThread(new Runnable() {
                 @Override
                 public void run() {
+                    getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","").commit();
                     mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
                     swipenoti = (TextView) findViewById(R.id.swipeNoti);
                     gotcha = (TextView) findViewById(R.id.Gotcha);
@@ -94,9 +95,9 @@ public class papers extends ActionBarActivity
                     }
                     static1 = status;
                     path1 = getSharedPreferences("ROOT", MODE_PRIVATE).getString("ROOT", "");
-                    staticpath =  Environment.getExternalStorageDirectory().toString()+"/OU Papers/"  + path1;
+                    staticpath = "/data/data/net.net23.freeismail.oupapers12/" + path1;
                     try {
-                        String path2 = Environment.getExternalStorageDirectory().toString()+"/OU Papers/"  + path1;
+                        String path2 ="/data/data/net.net23.freeismail.oupapers12/"+ path1;
                         File f = new File(path2);
                         array = f.listFiles();
                         noofpapers = array.length;

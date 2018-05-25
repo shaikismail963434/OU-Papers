@@ -26,7 +26,7 @@ public class first extends Activity
         bundle.putString(FirebaseAnalytics.Param.ITEM_NAME, "name");
         bundle.putString(FirebaseAnalytics.Param.CONTENT_TYPE, "image");
         mFirebaseAnalytics.logEvent(FirebaseAnalytics.Event.SELECT_CONTENT, bundle);
-        getSharedPreferences("1.8.6", MODE_PRIVATE).edit().putString("1.8.6", "1.8.6").commit();
+        getSharedPreferences("1.8.8", MODE_PRIVATE).edit().putString("1.8.8", "1.8.8").commit();
         final TextView bb;
         bb=(TextView)findViewById(R.id.started);
         bb.setOnClickListener(new View.OnClickListener()
@@ -50,7 +50,8 @@ public class first extends Activity
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN)
             {
                 finishAffinity();
-            } else
+            }
+            else
                 System.exit(0);
         }
         return super.onKeyDown(KeyCode, event);

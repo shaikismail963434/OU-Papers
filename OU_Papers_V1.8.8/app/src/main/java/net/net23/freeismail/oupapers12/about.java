@@ -16,7 +16,7 @@ public class about extends Activity
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.about);
-
+        getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","").commit();
         final  TextView more =(TextView)findViewById(R.id.more);
         more.setOnClickListener(new View.OnClickListener()
         {

@@ -842,7 +842,6 @@ public class HighActivity extends Activity
                     @Override
                     public void onClick(View view)
                     {
-                        getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","00000000000000000000").commit();
                         final int[] reloop = {0};
                         String kak = "";
 
@@ -987,7 +986,6 @@ public class HighActivity extends Activity
                                     deighteen = false;
                                     dnineten = false;
                                     dtwenty = false;
-
                                     corres = false;
                                     Handler han = new Handler();
                                     han.postDelayed(new Runnable() {
@@ -2950,7 +2948,7 @@ public class HighActivity extends Activity
 
         //Deleting Content
 
-        if(getSharedPreferences("1.8.6",MODE_PRIVATE).getString("1.8.6","").equals(""))
+        if(getSharedPreferences("1.8.8",MODE_PRIVATE).getString("1.8.8","").equals(""))
         {
             int lock = 0;
             File ff = new File("/data/data/net.net23.freeismail.oupapers12/");
@@ -2987,7 +2985,7 @@ public class HighActivity extends Activity
             getSharedPreferences("EYE", MODE_PRIVATE).edit().putString(name[0] + " " + button[0] + " - " + button1[0],
                     "").commit();
             getSharedPreferences("VIEW", MODE_PRIVATE).edit().putString("VIEW", "").commit();
-            getSharedPreferences("1.8.6", MODE_PRIVATE).edit().putString("1.8.6", "1.8.6").commit();
+            getSharedPreferences("1.8.8", MODE_PRIVATE).edit().putString("1.8.8", "1.8.8").commit();
             if (lock == 1)
             {
                 final ProgressDialog pb = new ProgressDialog(HighActivity.this);
@@ -3438,10 +3436,7 @@ public class HighActivity extends Activity
             else if (view1.length() == 8)
                 folder = view1.substring(0, 2) + view1.charAt(3) + view1.charAt(7);
 
-            path = Environment.getExternalStorageDirectory().toString()+"/OU Papers/" + folder;
-            File donot=new File(Environment.getExternalStorageDirectory().toString()+"/OU Papers/Do_Not_Manipulate_This_Folder(s).txt");
-            if(!donot.exists())
-                donot.createNewFile();
+            path = "/data/data/net.net23.freeismail.oupapers12/" + folder;
             PapersFolder=path;
             if(status.equals("SYLLABUS"))
             {
@@ -3838,7 +3833,7 @@ public class HighActivity extends Activity
     }
     private void stopanimation()
     {
-        getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","00000000000000000000").commit();
+        getSharedPreferences("LEN",MODE_PRIVATE).edit().putString("LEN","").commit();
         shaking=false;
         menu.setVisibility(View.VISIBLE);
         deletesub.setVisibility(View.INVISIBLE);
